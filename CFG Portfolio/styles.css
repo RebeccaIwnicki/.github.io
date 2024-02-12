@@ -1,0 +1,49 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+  html{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding-left: 5%;
+  }
+
+  h1{
+   font-size: 3em;
+   font-weight: bold;
+   color: rgb(199, 47, 80); 
+   text-align: center;
+  }
+
+  h2{
+    font-size: 1.8em;
+    font-weight: normal;
+    color: rgb(73, 36, 97);
+  }
+
+  h3{
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(199, 47, 80);
+  }
+
+  /* style the list of skills */
+
+  .top-skill{
+    color: #fff;
+    /* This can be uncommented as it is long to type out and not main learning goal */
+    text-shadow:
+      0 0 7px rgb(180, 2, 162),
+      0 0 10px rgb(180, 2, 162),
+      0 0 21px rgb(180, 2, 162),
+      0 0 42px #fff,
+      0 0 82px #fff,
+      0 0 92px #fff,
+      0 0 102px #fff;
+  }
+
+  body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url(Ric_Rac_Bubblegum_One.jpg);
+    background-size: 100%;
+
+  }
